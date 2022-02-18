@@ -1,0 +1,40 @@
+body {
+	background: black;
+	font-family: "Quintessential", cursive;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding-top: 5px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	padding: 10px;
+	font-size: 12;
+}
+.no-margin {
+	margin-top: 0;
+}
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+	font-family: "Quintessential", cursive;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 10px;
+	font-family: "Quintessential", cursive;
+}
